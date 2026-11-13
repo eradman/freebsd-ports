@@ -1,0 +1,64 @@
+--- config.def.h.orig	2026-11-13 19:38:08 UTC
++++ config.def.h
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "Hermit:light:pixelsize=13:antialias=true:autohint=true";
+ static int borderpx = 2;
+ 
+ /*
+@@ -96,32 +96,32 @@ static const char *colorname[] = {
+ /* Terminal colors (16 first used in escape sequence) */
+ static const char *colorname[] = {
+ 	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
++	"#073642",
++	"#dc322f",
++	"#859900",
++	"#b58900",
++	"#268bd2",
++	"#d33682",
++	"#2aa198",
++	"#eee8d5",
+ 
+ 	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++	"#002b36",
++	"#cb4b16",
++	"#586e75",
++	"#657b83",
++	"#839496",
++	"#6c71c4",
++	"#93a1a1",
++	"#fdf6e3",
+ 
+ 	[255] = 0,
+ 
+ 	/* more colors can be added after 255 to use with DefaultXX */
+-	"#cccccc",
+-	"#555555",
+-	"gray90", /* default foreground colour */
+-	"black", /* default background colour */
++	"#657b83",
++	"#002b36",
++	"#a2a3a3", /* default foreground colour */
++	"#002b36", /* default background colour */
+ };
+ 
+ 
